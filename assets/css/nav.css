@@ -1,0 +1,35 @@
+nav{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;  
+    border-bottom: 1px solid #EF5435 ;
+}
+.links{
+    display: flex;
+}
+
+.links li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgba(239, 84, 53, 0.25);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #EF5435;
+    font-weight: 600;
+}
+
+input{
+    height: 45px;
+    width: 400px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px rgba(57, 54, 79, 0.16) solid;
+}
