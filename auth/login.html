@@ -3,35 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Vivavents | Login</title>
 </head>
 <body>
     <div class="container">
         <div class="left">
-            <img src="/assets/images/sparks.jpg" alt="">
-            <div class="logo">
-                <img src="assets/images/logo-white.jpg" alt="">
+            <div class="left-logo">
+                <img src="/assets/images/VivaVents-logo-white.svg" alt="">
             </div>
         </div>
         <div class="right">
             <div class="right-holder">
+                <div class="logo-orange">
+                    <img src="/assets/images/VivaVents-logo-orange.svg" alt="">
+                </div>
+
+                <h1 id="create-account">Welcome back!</h1>
+                <br>
+                <br>
                 <form action="login.html/">
-                    <div class="logo-orange">
-                        <img src="/assets/images/logo-orange.jpg" alt="">
-                    </div>
-                    <h1 id="create-account">Welcome back!</h1>
-                    <input type="email">
-                    <input type="tel">
-                    <input type="submit" name="create-account-btn" id="" value="Log In">
+                    <input type="email" placeholder="Email address">
+                    <input type="password" placeholder="Password">
+                    <br>
+
+                    <input type="submit" name="login-to-account-btn" id="login-to-account-btn" value="Log In">
             </form>
+            <br>
             <div class="or-design">
-                <!-- include hr with the or deign in the middle -->
+                <hr>
+                <p>or</p>
+                <hr>
             </div>
+            <br>
             <div class="login-with-google">
-                <img src="" alt="" id="google-icon">
-                <p>Log in with google</p>
+                <img src="/assets/images/google.svg" alt="" id="google-icon">
+                <p>Log In with Google</p>
             </div>
-            <p>Forgot password? <span>Reset</span> </p>
+            <br>
+            <p class="account-text">Forgot password? <a href="./login.html">Reset</a> </p>
+            <br>
+            <br>
+            <p class="account-text">I'm new here, <a href="./signup.html">Sign me up!</a> </p>
         </div>
 
         </div>

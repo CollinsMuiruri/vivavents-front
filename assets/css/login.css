@@ -1,0 +1,135 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 40%;
+    height: 100vh;
+    background-image: url('../images/sparkler-sticks.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.left-logo{
+    height: 20%;
+    background: linear-gradient(180deg, rgba(57, 54, 79, 0.00) 0%, #39364F 100%);
+}
+
+.left .image-box{
+    width: 100%;
+}
+
+.left img{
+    display: block;
+    width: 25%;
+    padding-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+h1, .logo-orange{
+    text-align: right;
+}
+h1{
+    color: #1E0A3C;
+    font-size: 40px;
+}
+
+.logo-orange img{
+    width: 40%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border: 2px rgba(57, 54, 79, 0.16) solid;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 400px;
+}
+
+#login-to-account-btn{
+    background-color: #EF5435;
+    color: white;
+    font-weight: 500;
+    height: 45px;
+    cursor: pointer;
+}
+
+#create-account-btn:hover{
+    background-color: #1E0A3C;
+}
+
+.or-design{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.or-design hr{
+    width: 45%;
+    border: 1px rgba(57, 54, 79, 0.16) solid;
+}
+.or-design p{
+    width: 15%;
+    text-align: center;
+    padding: 1px;
+    border-radius: 46px;
+    border: 2px rgba(57, 54, 79, 0.16) solid;
+    color: rgba(57, 54, 79, 0.48);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.login-with-google{
+    text-align: center;
+    color: #39364F;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(57, 54, 79, 0.48);
+    padding: 5px;
+    height: 48px;
+}
+
+.login-with-google:hover{
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.login-with-google img{
+    width: 24px;
+    height: 24px;
+}
+
+.account-text{
+    text-align: center;
+    font-weight: 500;
+    color: #39364F;
+}
+
+.account-text a{
+    color: #EF5435;
+    text-decoration: none;
+}
+

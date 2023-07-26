@@ -4,45 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/signup.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Vivavents | SignUp</title>
 </head>
 <body>
     <div class="container">
-        <div class="left side">
-            <div class="image-box">
-                <img src="/assets/images/happy_women.jpg" alt="">
-            </div>
-            <div class="logo">
-                <img src="assets/images/logo-white.jpg" alt="">
+        <div class="left">
+            <div class="left-logo">
+                <img src="/assets/images/VivaVents-logo-white.svg" alt="">
             </div>
         </div>
-        <div class="right side">
+        <div class="right">
             <div class="right-holder">
+                <div class="logo-orange">
+                    <img src="/assets/images/VivaVents-logo-orange.svg" alt="">
+                </div>
+
+                <h1 id="create-account">Create an account</h1>
+                <br>
+                <br>
                 <form action="login.html/">
-                    <div class="logo-orange">
-                        <img src="/assets/images/logo-orange.jpg" alt="">
-                    </div>
-                    <h1 id="create-account">Create an account</h1>
+
                     <div class="top-inputs">
-                        <input type="text">
-                        <input type="text">
+                        <input type="text" placeholder="Official name">
+                        <input type="text" placeholder="Stage name (optional)">
                     </div>
-                    <input type="email">
-                    <input type="tel">
+                    <br>
+
+                    <input type="email" placeholder="Email address">
+                    <input type="tel" placeholder="Phone number">
+                    <br>
+
                     <div class="bottom-inputs">
-                        <input type="text">
-                        <input type="text">
+                        <input type="text" placeholder="Password">
+                        <input type="text" placeholder="Confirm password">
                     </div>
-                    <input type="submit" name="create-account-btn" id="" value="Create Account">
+                    <br>
+
+                    <input type="submit" name="create-account-btn" id="create-account-btn" value="Create Account">
             </form>
+            <br>
             <div class="or-design">
-                <!-- include hr with the or deign in the middle -->
+                <hr>
+                <p>or</p>
+                <hr>
             </div>
+            <br>
             <div class="login-with-google">
-                <img src="" alt="" id="google-icon">
-                <p>Sign up with google</p>
+                <img src="/assets/images/google.svg" alt="" id="google-icon">
+                <p>Sign up with Google</p>
             </div>
-            <p>Have an account <span>Log In</span> </p>
+            <br>
+            <p class="account-text">Have an account? <a href="./login.html">Log In</a> </p>
         </div>
 
         </div>
